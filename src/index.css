@@ -159,8 +159,9 @@ img {
   position: absolute;
   inset: 0;
   z-index: 0;
+  background-color: #0a0a0a;
   background-image: url('./assets/hero-bg.png');
-  background-size: cover;
+  background-size: auto 100%;
   background-position: right center;
   background-repeat: no-repeat;
 }
@@ -169,8 +170,8 @@ img {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0.85) 28%, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0) 70%),
-    linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.45) 100%);
+    linear-gradient(90deg, #0a0a0a 0%, rgba(10, 10, 10, 0.6) 35%, rgba(10, 10, 10, 0) 55%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.4) 100%);
 }
 .hero-content {
   position: relative;
